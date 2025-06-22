@@ -1,0 +1,43 @@
+📐 Right-Aligned Right-Angled Triangle Star Pattern in Java
+This Java program prints a right-angled triangle pattern aligned to the right side of the console. 
+The pattern is made of asterisks (*) and increases line by line, forming a triangle with its right angle at the bottom-right corner. 
+It’s a great way to practice working with nested loops, spacing logic, and pattern alignment.
+
+import java.util.*;
+public class Righttraingle_right {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		for(int i=1;i<=n;i++) {
+			for(int j=1;j<=n-i;j++) {
+				System.out.print("  ");
+			}
+			for(int k=1;k<=i;k++) {
+				System.out.print("* ");
+			}
+			System.out.println();
+		}
+	}
+
+}
+
+
+Sample Input/Output:
+Input:
+5
+Output:
+        * 
+      * * 
+    * * * 
+  * * * * 
+* * * * * 
+
+Nested for loops for controlling rows and columns
+
+Conditional space printing to achieve right alignment
+
+Scanner class for user input
+
+Basic formatting and spacing logic
