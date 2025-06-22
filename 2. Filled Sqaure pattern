@@ -1,0 +1,40 @@
+Filled Square Star Pattern in Java
+This Java program prints a filled square pattern made of asterisks (*), where the size of the square is determined by the user input. 
+It demonstrates the use of nested loops, user input handling, and basic pattern printing, making it a great practice program for beginners learning Java.
+
+
+import java.util.*;
+public class Squarefilled {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		for(int i=0;i<n;i++) {
+			for(int j=0;j<n;j++) {
+				System.out.print("* ");
+			}
+			System.out.println();
+		}
+		
+	}
+
+}
+
+Sample Input/Output:
+Input:
+5
+Output:
+* * * * * 
+* * * * * 
+* * * * * 
+* * * * * 
+* * * * * 
+
+Scanner class for user input
+
+Loop control structures (for loops)
+
+Nested loops for pattern printing
+
+Console output formatting using System.out.print() and System.out.println()
