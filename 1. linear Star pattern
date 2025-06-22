@@ -1,0 +1,36 @@
+ Line Star Pattern in Java
+This simple Java program prints a straight horizontal line of stars (*) based on user input. 
+The user provides a number n, and the program prints n+1 stars in a single line, each separated by a space.
+
+
+import java.util.*;
+public class Linestar {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner  sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		for(int i=0;i<=n;i++) {
+			System.out.print("*"+" ");
+		}
+		
+	}
+
+}
+
+
+Example Output:
+
+Input: 5  
+Output: * * * * * * 
+
+
+ Concepts Used:
+
+Basic for loop
+
+User input with Scanner
+
+Printing patterns with System.out.print()
+
+This is a foundational program for learning how loops and user input work in Java.
