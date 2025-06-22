@@ -1,0 +1,47 @@
+Hollow Square Star Pattern in Java
+This Java program prints a hollow square pattern made of asterisks (*), based on the size specified by the user. 
+Unlike a filled square, the center of the square is empty, with only the border lines displaying stars. 
+This is a great example to understand the use of conditional logic inside nested loops.
+
+
+import java.util.*;
+public class Squarehallow {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		for(int i=1;i<=n;i++) {
+			for(int j=1;j<=n;j++) {
+				if(i==1 || i==n || j==1 || j==n) {
+					System.out.print("* ");
+				}
+				else {
+					System.out.print("  ");
+				}
+			}
+			System.out.println();
+		}
+
+	}
+
+}
+
+Sample Input/Output:
+5
+Output:
+* * * * * 
+*       * 
+*       * 
+*       * 
+* * * * * 
+
+Nested loops for row and column control
+
+Conditional statements (if-else) for printing stars or spaces
+
+User input using the Scanner class
+
+Basic pattern design logic in console-based programs
+
+
